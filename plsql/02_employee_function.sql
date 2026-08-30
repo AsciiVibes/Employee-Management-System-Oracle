@@ -1,3 +1,5 @@
+
+
 CREATE OR REPLACE FUNCTION get_employee_salary (
     p_employee_id IN employee.employee_id%TYPE
 )
@@ -18,3 +20,4 @@ EXCEPTION
         RETURN NULL;
 
 END;
+/
